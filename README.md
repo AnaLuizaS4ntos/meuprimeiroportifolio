@@ -1,2 +1,70 @@
-# meuprimeiroportifolio
-portifolio
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Portifólio Ana Luíza</title>
+    <link href="https://analuizas4ntos.github.io/meuprimeiroportifolio/estilos.css" rel="stylesheet"/>
+    <link href="https://analuizas4ntos.github.io/meuprimeiroportifolio/rolagem.css" rel="stylesheet"/>
+    <link href="https://analuizas4ntos.github.io/meuprimeiroportifolio/reset.css" rel="stylesheet"/>
+    <script src="https://analuizas4ntos.github.io/meuprimeiroportifolio/index.js"></script>
+     <link href="https://analuizas4ntos.github.io/meuprimeiroportifolio/fundo-site.jpg" rel="stylesheet"/>
+    
+</head>
+<body>
+
+   <main class="cartao" font="./src/fonte/ChakraPetch-Bold.ttf">
+        <div class="minhas-informacoes">
+            <img src="./src/1665538433389.jpg" alt="foto de perfil">
+            <h1 class="nome">Ana Luíza dos Santos</h1>
+            <h2 class="cargo"><i>Desenvolvedora Frontend Junior</i></h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./src/sobre.gif" alt="icone de sobre mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/coracao.gif" alt="gif de redes sociais">
+                </li>
+            </ul>
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descricao">
+                        <p>Oi! meu nome é Ana Luíza, seja bem vinda(o) ao meu portifólio!</p>
+                        <p>Sou uma programadora iniciante e ilustradora de longa data, já faz uns anos que conheci a área de T.I. 
+                           e me apaixonei por todas as ideias loucas de coisas que eu poderia fazer desenvolvendo projetos únicos. 
+                           Por conta disso estou me aprimorando nas linguagens <span>HTML, CSS e JavaScript</span> !</p>
+                        
+                    </div>
+                </div>
+
+     
+
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas Redes</h3>
+
+                    <ul class="redes-sociais">
+                        <li>
+                            <a href="https://www.linkedin.com/in/ana-lu%C3%ADza-dos-santos-souza-a34064188/" target="_blank" class="linkedin">Linkedin</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/AnaLuizaS4ntos" target="_blank" class="github">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+              
+
+            </div>
+        </div>
+      
+   </main>
+
+   <script src="./src/js/index.js"></script>
+</body>
+</html>
